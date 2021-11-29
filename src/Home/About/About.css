@@ -1,0 +1,11 @@
+.about-img {
+  border-left: 8px solid #00ffbb;
+  border-top: 8px solid #00ffbb;
+}
+.about-img img {
+  margin: 15px 0 0 15px;
+}
+.about-container {
+  background-color: #262626;
+  padding: 98px 0;
+}

@@ -1,0 +1,19 @@
+.contact img {
+  width: 70px;
+  height: 70px;
+  margin-right: 18px;
+}
+
+.contact input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
+  background-color: inherit;
+  border-radius: 12px;
+  padding: 12px;
+  color: white;
+  border: 2px solid white;
+}
+input:focus {
+  background-color: inherit;
+}

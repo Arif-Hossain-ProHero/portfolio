@@ -1,0 +1,14 @@
+.header-container {
+  background-color: rgb(33, 33, 33);
+  color: white;
+  padding: 68px 0;
+}
+.regular-btn {
+  color: black;
+  font-weight: 500;
+  background-color: #00ffbb;
+  padding: 12px 38px;
+  border-radius: 24px;
+  border: none;
+  cursor: pointer;
+}

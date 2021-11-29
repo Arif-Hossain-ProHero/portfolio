@@ -1,0 +1,21 @@
+.heading {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+}
+.heading:before,
+.heading:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 4px solid #00ffbb;
+  margin: auto;
+}
+.heading:before {
+  margin-right: 10px;
+}
+.heading:after {
+  margin-left: 10px;
+}
+.portfolio img {
+  max-height: 445px;
+}
