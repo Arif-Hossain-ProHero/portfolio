@@ -1,6 +1,9 @@
-import React, { useRef } from "react";
+import React, { useRef, useEffect } from "react";
 import "./Contact.css";
 import emailjs from "emailjs-com";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import swal from "sweetalert";
 
 const Contact = () => {
   const form = useRef();
@@ -17,15 +20,19 @@ const Contact = () => {
       )
       .then(
         (result) => {
-          alert("Email sent Successfully");
+          swal("Email sent Successfully");
         },
         (error) => {
           console.log(error.text);
-          alert(error.text);
+          swal(error.text);
         }
       );
     e.target.reset();
   };
+  useEffect(() => {
+    Aos.init({ duration: 3000 });
+  }, []);
+
   return (
     <div id="contact" className="about-container">
       <div className="container text-white contact">
@@ -57,7 +64,7 @@ const Contact = () => {
             </div>
           </div>
           {/* contact form */}
-          <div className="col-md-7 col-12">
+          <div data-aos="fade-left" className="col-md-7 col-12">
             <form ref={form} onSubmit={sendEmail}>
               <div className="mb-3">
                 <input

@@ -1,0 +1,4 @@
+.navbar-nav li:hover {
+  border-bottom: 3px solid goldenrod;
+  transition: all 0.2s;
+}

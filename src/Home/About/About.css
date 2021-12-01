@@ -1,6 +1,7 @@
 .about-img {
   border-left: 8px solid #00ffbb;
   border-top: 8px solid #00ffbb;
+  border-radius: 5px;
 }
 .about-img img {
   margin: 15px 0 0 15px;

@@ -4,3 +4,9 @@ a {
 .logo {
   font-family: "Lobster", cursive;
 }
+.fab {
+  transition: all 0.5s ease-in-out;
+}
+.fab:hover {
+  color: #00ffbb;
+}

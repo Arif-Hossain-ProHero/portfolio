@@ -1,0 +1,86 @@
+[
+	{
+		"id": 1,
+		"name": "ShoesBD- An Online Store",
+		"link": "https://shoesbd-543e7.web.app/",
+		"tech": [
+			"React",
+			"Node.js",
+			"Express.js",
+			"Firebase",
+			"Material UI",
+			"Bootstrap",
+			"MongoDB",
+			"Stripe Payment",
+			"Heroku"
+		],
+		"gitRepo": "https://github.com/Arif-Hossain-ProHero/shoesBD",
+		"serverRepo": "https://github.com/Arif-Hossain-ProHero/shoesBD-server",
+		"img": [
+			"https://i.ibb.co/DWHwDfc/shoesbd3.png",
+			"https://i.ibb.co/5Wjv9Bj/shoesbd1.png",
+			"https://i.ibb.co/bNF6mV3/shoesbd2.png"
+		],
+		"features": [
+			"A fully functional, full-stack app based on MERN",
+			"User can order shoe and give review if authenticate",
+			"Having an Admin panel where admin can manage CRUD operations",
+			"User can Manage his/her orders and do payment on Payment page.",
+			"An Admin will see different UI under dashboard page.",
+			"Admin can make another user as an admin."
+		]
+	},
+	{
+		"id": 2,
+		"name": "NiceTrip- A Tourism Agency",
+		"link": "https://nice-trip-e6b1c.web.app/",
+		"tech": [
+			"React",
+			"Node.js",
+			"Express.js",
+			"Firebase",
+			"Bootstrap",
+			"MongoDB",
+			"Google Fonts",
+			"Heroku"
+		],
+		"gitRepo": "https://github.com/Arif-Hossain-ProHero/nice-trip",
+		"serverRepo": "https://github.com/Arif-Hossain-ProHero/nice-trip-server",
+		"img": [
+			"https://i.ibb.co/1bCX18Q/nicetrip1.png",
+			"https://i.ibb.co/X8mMwDR/nicetrip2.png",
+			"https://i.ibb.co/mXzv95X/nicetrip3.png"
+		],
+		"features": [
+			"Functional travel agency app, based on MERN",
+			"Users can book their trips and view their orders on the My Order page",
+			"If user is authenticated he/she can add package which is shown on Home page",
+			"Users can Manage his/her orders as well as All orders in this site"
+		]
+	},
+	{
+		"id": 3,
+		"name": "OpticCenter-An Eye Service Website",
+		"link": "https://optic-center-hospital.web.app/",
+		"tech": [
+			"React",
+			"Firebase",
+			"Bootstrap",
+			"TailwindCSS",
+			"Google Fonts"
+		],
+		"gitRepo": "https://github.com/Arif-Hossain-ProHero/optic-center-hospital",
+		"img": [
+			"https://i.ibb.co/Y2N2YrH/optic-center1.png",
+			"https://i.ibb.co/ysrCCJC/optic-center2.png",
+			"https://i.ibb.co/X2Qt6Q1/optic-center3.png"
+		],
+		"features": [
+			"A Single Page Application Where Eye related services are given.",
+			"Users can book an Appointment and see the services if he/she is logged in or Redirect to the login page.",
+			"Implemented Google registration system",
+			"A blog section is added in the Homepage where users can read blog regarding Eye issue",
+			"Through Contact Us form anyone can contact with Clinic authority"
+		]
+	}
+]

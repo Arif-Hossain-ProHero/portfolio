@@ -16,6 +16,12 @@
 .heading:after {
   margin-left: 10px;
 }
-.portfolio img {
+#project img {
   max-height: 445px;
+}
+#project .col {
+  transition: all 0.5s ease-in-out;
+}
+#project .col:hover {
+  transform: scale(1.05);
 }

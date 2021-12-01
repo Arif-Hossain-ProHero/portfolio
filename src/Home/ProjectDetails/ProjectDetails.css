@@ -1,0 +1,9 @@
+.screenshot img {
+  max-height: 400px;
+}
+.details img:hover {
+  transform: scale(1.1);
+}
+.details img {
+  transition: all 0.5s ease-in-out;
+}

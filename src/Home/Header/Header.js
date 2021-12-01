@@ -1,12 +1,22 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Header.css";
+import manVector from "../../images/man_vector.png";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import Particles from "react-particles-js";
 
 const Header = () => {
+  useEffect(() => {
+    Aos.init({ duration: 3000 });
+  }, []);
   return (
-    <div id="header" className="header-container">
+    <div id="header" className="header-container  mt-5">
       <div className="container">
         <div className="row">
-          <div className="col-12 col-md-5 d-flex justify-content-center align-items-center">
+          <div
+            data-aos="fade-right"
+            className="col-12 col-md-5 d-flex justify-content-center align-items-center"
+          >
             <div>
               <p>HI THERE, I'M</p>
               <h1 style={{ fontWeight: "900", fontSize: "5rem" }}>
@@ -20,15 +30,18 @@ const Header = () => {
                 Bootstrap, React, Material UI. I am also work in the backend
                 with node js, express js, MongoDB
               </p>
-              <button className="regular-btn">Hire Me</button>
+              <div className="mt-3">
+                <a className="regular-btn" href="#contact">
+                  Hire Me
+                </a>
+              </div>
             </div>
           </div>
-          <div className="col-md-7 col-12 d-flex justify-content-center align-items-center">
-            <img
-              className="img-fluid"
-              src="https://res.cloudinary.com/dejiabiola/image/upload/v1607804394/envato_2.0/kem-hero.png"
-              alt="coding"
-            />
+          <div
+            data-aos="fade-left"
+            className="col-md-7 col-12 d-flex justify-content-center align-items-center"
+          >
+            <img className="img-fluid" src={manVector} alt="coding" />
           </div>
         </div>
       </div>
